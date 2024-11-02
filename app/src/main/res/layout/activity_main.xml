@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main1"> <!-- Fondo personalizado -->
+
+    <!-- Contenedor para los botones en la parte superior -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnDeleteRecipe"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="ELIMINAR RECETA"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnEditRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/purple_500"
+            android:text="EDITAR RECETA"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnAddRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/purple_500"
+            android:text="AGREGAR RECETA"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <!-- Lista de recetas -->
+    <ListView
+        android:id="@+id/ListaRecetasView"
+        android:layout_width="390dp"
+        android:layout_height="463dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="264dp"
+        android:divider="#CCCCCC"
+        android:dividerHeight="1dp" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">The Secret of Cooking</string>
+    <string name="login">Login</string>
+    <string name="username">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="classify">Clasificar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+</resources>

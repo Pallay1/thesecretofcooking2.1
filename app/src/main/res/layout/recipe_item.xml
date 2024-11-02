@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Nombre de la Receta -->
+    <TextView
+        android:id="@+id/recipeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre de la Receta"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:paddingBottom="4dp"/>
+
+    <!-- Ingredientes -->
+    <TextView
+        android:id="@+id/recipeIngredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredientes: ..."
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:paddingBottom="4dp"/>
+
+    <!-- Calificación -->
+    <RatingBar
+        android:id="@+id/recipeRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"
+        android:isIndicator="true"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>
+
