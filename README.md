@@ -13,7 +13,7 @@ SQLite para almacenamiento local
 Instalación
 
 Clona el repositorio:
-git clone https://github.com/tu-usuario/TheSecretOfCookingBD.git
+git clone https://github.com/tu-usuario/TheSecretOfCooking2.1.git
 cd TheSecretOfCooking
 Abre el proyecto en Android Studio.
 Ejecuta la aplicación en un emulador o dispositivo.
