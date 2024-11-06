@@ -1,4 +1,5 @@
 The Secret of Cooking
+
 The Secret of Cooking es una aplicación de Android que permite gestionar recetas de cocina. Los usuarios pueden agregar, ver y eliminar recetas, con detalles como nombre, ingredientes y una calificación.
 
 Funcionalidades
@@ -10,6 +11,7 @@ Java
 Android Studio
 SQLite para almacenamiento local
 Instalación
+
 Clona el repositorio:
 git clone https://github.com/tu-usuario/TheSecretOfCookingBD.git
 cd TheSecretOfCooking
